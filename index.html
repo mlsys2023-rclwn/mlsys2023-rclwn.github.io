@@ -7,18 +7,24 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png"> -->
-    <link rel="shortcut icon" href="images/icml.png">
-    <link href='http://fonts.googleapis.com/css?family=Lobster|Pacifico' rel='stylesheet' type='text/css'>
+    <!-- <link rel="shortcut icon" href="images/icml.png"> -->
 
-    <title>ML-6G 2022</title>
+    <title>RCLWN 2023</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="./dist/css/bootstrap.css" rel="stylesheet">
+
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+    
     <link href="style.css" rel="stylesheet">
-    <link href="styletest.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+     <script src="bootstrap.min.js"></script>
+
     <!-- <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'> -->
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -43,7 +49,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img id="navlogo" src ="images/icml.jpeg"></a>
+          <!-- <a class="navbar-brand" href="index.html"><img id="navlogo" src ="images/icml.jpeg"></a> -->
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav ddmenu">
@@ -61,31 +67,56 @@
       </div>
     </div>
         <div class="container">
-			<h1 align="center">ML-6G: Machine Learning for 6G Wireless Networks</h1>
-			<h2 align="center">July 2022</h2>
-
-       <div class="content" id="date">
-      </div>
+      <hr />
+			<h1 align="center">Workshop on Resource-Constrained Learning in Wireless Networks</h1>
+			<h2 align="center">Sixth Conference on Machine Learning and Systems (<a href="https://mlsys.org/">MLSys 2023</a>), July 2023</h2>
+<!--        <div class="content" id="date">
+      </div> -->
 </div>
 			
-    <div id="maininfo">
+<!--     <div id="maininfo">
       <img src="images/icml.png"  width="300" height="200"   alt="banner-dataconnect">
-    </div>
+    </div> -->
 
     <div class="container">
-      <div class="content" id="date">
-      </div>
+<!--       <div class="content" id="date">
+      </div> -->
       <div class="content" id="about">
  
         <div>
-      <p> 
-        
-          The workshop <font class="important">Machine Learning for 6G Wireless Networks (ML-6G)</font> will highlight the critical role of AI/ML technologies in designing the emerging sixth-generation (6G) wireless networking systems. This workshop will present pioneering inter-disciplinary work in this rapidly-evolving area.  In particular, it will bring the ML and wireless networking researchers together in order to (i) expose the ICML community to the unique opportunities and challenges of introducingAI/ML in wireless networking systems that distinguish them from other areas in which ML algorithms are prevalent and (ii) carve out strategic research targets for the deployment of AI/ML technologies in 6G wireless networks and beyond.
-        </p>
-
-        <p>
-While 5G is being deployed around the globe, academic and industry researchers are laying out the vision and key technologies for 6G. 6G systems promise huge economic and societal impacts by merging computation, communication, and intelligence in order to create new digital worlds that connect and control both physical and biological systems.  Just as 4G enabled unprecedented smartphone services and applications, such as Uber,Google Maps, and Netflix, and 5G is facilitating advancements such as autonomous driving and mixed reality, 6G is envisioned to result in novel application areas that are yet to be created.  5G standards are already addressing the use of ML for the radio access network (RAN) and the air interface, laying the foundation of a fundamentally new AI-based approach to the design of 6G systems. There are several areas in which ML and 6G can benefit from each other.  First, while classical solutions for wireless systems are largely based on mathematical models and many simplifying assumptions, ML enables the compensation of model and algorithm deficits in a data-driven manner.  Second, wireless networks are becoming increasingly important for supporting distributed large-scale ML applications.  Hence, a co-designof ML applications with the 6G protocol stack is critical.  Third, as wireless signals are increasingly used for perception and sensing, ML architectures for wireless sensing open up new exciting research areas. While there is significant potential for ML in wireless systems, many challenges exist.  Wireless systems should operate with almost no access to labeled data and must be particularly robust to dynamically-changing network environments that vary at extremely short timescales.  ML solutions should thus (i) generalize well to new scenarios  with minimal supervision and (ii) deliver effective  performance for mobile and severely resource-constrained  devices.   Addressing  these  challenges  requires  effectively  combining  wireless  domain knowledge with a deep understanding of ML methods to develop high performance and practical solutions. Key ML domains that hold promise for application in wireless networks include uncertainty estimation, Bayesian learning, unsupervised and self-supervised learning, transfer learning, generative modeling, reinforcement learning, and graph representation learning.  At the same time, communication and information theories also provide a new lens to design ML techniques.  Already, communication-theoretic and ML research share approaches such as belief propagation and Kalman filtering. .  Foundational theories of sampling, compression, quantization, coding, estimation, and detection are also relevant to develop new ML approaches that are better suited for dynamic wireless networks, and to enable large-scale ML over wireless communication systems.
-
+<hr />
+<p>
+Recent years have seen an accelerated interest in applying artificial intelligence (AI) and, in particular, machine
+learning (ML) techniques to optimize, design, and automate communication networks. As the complexity
+of modern 5G and beyond networks grows, ML techniques promise new design methodologies and tools
+for architecting complex communication networks and automating network operation. At the same time,
+the increasingly powerful and ubiquitous sensing, computation and communication capabilities of emerging
+networks are driving ML computations closer to the edge, enabling local processing of distributed datasets; a
+shift that promises pervasive and contextualized ML solutions at scale.</p>
+<p>
+ML techniques are rapidly evolving, moving from traditional supervised learning to self-supervised learning,
+reinforcement learning, and artificial general intelligence. However, they face several challenges for wide-scale
+deployment in wireless systems. Wireless communication networks should operate with almost no access
+to labeled data and must be particularly robust to dynamically-changing network environments that vary
+at extremely short timescales. Suitable ML solutions should thus (i) generalize well to new scenarios with
+minimal supervision and (ii) deliver effective performance for mobile and severely resource-constrained devices.
+Addressing these challenges requires effectively combining wireless domain knowledge with a deep understanding
+of ML methods towards developing high-performance and practical solutions and optimize the performance of
+existing and future communication systems. </p>
+<p>Exploiting synergies between applying ML techniques to optimize communication networks and distributing ML
+workloads across resource-constrained and unreliable networks requires a cross-disciplinary virtuous co-design
+cycle that could transform both wireless networking and ML technologies. Modern communication networks
+need to support diverse and mission-critical services over time-varying wireless channels, mandating automated
+approaches that can operate online, reliably, and in real-time. At the same time, learning at the wireless edge
+must address several challenges, including device heterogeneity and resource constraints, privacy concerns,
+limited data, and partially-observable environments.</p> 
+<p>This workshop seeks to bring ML and wireless networking experts together to identify inter-disciplinary
+approaches to evolve ML algorithms for and over communication networks that operate under constrained
+resources, including time, labeling, and computational capacity constraints. The workshop will provide a
+unique opportunity to expose the ICLR community to the challenges and opportunities of integrating ML
+methods into resource-constrained communication networks. It will also highlight emerging trends in ML
+with limited resources and their implications for the design and operation of next-generation communication
+networks.
         </p>  
 
         
@@ -100,14 +131,13 @@ While 5G is being deployed around the globe, academic and industry researchers a
 
 
       <ul>
-      <li><a href="https://www.avestimehr.com/"> Salman Avestimehr, University of Southern California and Amazon AI  </a>  (confirmed) </li>
-      <li><a href="https://www.weizmann.ac.il/math/yonina/"> Yonina Eldar, Weizmann Institute of Science </a>(confirmed)</li>
-      <li><a href="https://scholar.google.com/citations?user=xOSpfAYAAAAJ&hl=en"> Chih-Lin I, China Mobile</a></li>
-      <li><a href="https://people.csail.mit.edu/dina/">Dina Katabi, Massachusetts Institute of Technology</a></li>
-      <li><a href="http://niclane.org/"> Nicholas Lane, University of Cambridge and Samsung AI </a>  </li>
-      <li><a href="https://nms.kcl.ac.uk/osvaldo.simeone/index.htm"> Osvaldo Simeone (King's College London) </a>(confirmed) </li>
-      <li><a href="http://pramodv.ece.illinois.edu/"> Pramod Viswanath (University of Illinois at Urbana-Champaign) </a> (confirmed) </li>
-      <li><a href="https://scholar.google.ca/citations?user=RGC3tVcAAAAJ&hl=en"> Peiying Zhu, Huawei Technologies</a> (confirmed)</li>
+      <li><a href="https://www.avestimehr.com/"> Salman Avestimehr, University of Southern California and Amazon AI  </a>   </li>
+      <li><a href="https://www.weizmann.ac.il/math/yonina/"> Yonina Eldar, Weizmann Institute of Science </a></li>
+      <li><a href="https://www.researchgate.net/profile/Olga-Galinina"> Olga Galinina, Tampere University</a></li>
+      <li><a href="https://tjavidi.eng.ucsd.edu/">Tara Javidi, University of California San Diego</a></li>
+      <li><a href="https://sites.utexas.edu/hkim/"> Hyeji Kim,  University of Texas at Austin</a>  </li>
+      <li><a href="https://alelab.seas.upenn.edu/alejandro-ribeiro/"> Alejandro Ribeiro, University of Pennsylvania </a>  </li>
+      <li><a href="https://nms.kcl.ac.uk/osvaldo.simeone/index.htm"> Osvaldo Simeone, King's College London </a> </li>
     <!--    <li><span class="label label-danger">IMPORTANT and URGENT</span> </li>
         <li><span class="label label-success">App</span> </li> -->
       </ul>
@@ -117,7 +147,18 @@ While 5G is being deployed around the globe, academic and industry researchers a
       <hr>
 
 <p>
-We will advertise a call for papers that solicits novel, unpublished research results on topics relevant to theworkshop.  We will hold a dedicated spotlight session for individual presentations of a handful of spotlight accepted papers, as well as two poster sessions in order to cover the rest of the accepted submissions.  In addition to the invited talks and spotlight/poster sessions, we will hold a panel discussion with panelists drawnfrom the invited talks.  The panel session will be moderated by Prof. Monisha Ghosh from the University of Notre Dame.
+We are seeking original submissions in topics including, but not limited to:
+<ul>
+  <li>Learning in wireless networks with limited training data </li>
+    <li>Multi-agent federated/distributed learning with low computational and communication resources </li>
+    <li>Communicated data compression for network-wide task completion </li>
+    <li>Online learning with wireless latency constraints </li>
+    <li>Learning in wireless networks with privacy constraints </li>
+    <li>Few-shot learning and adaptation in wireless environments </li>
+    <li>Datasets and benchmarks for resource-constrained learning in wireless networks </li>
+</ul>
+
+
 
 
 <hr>
@@ -154,62 +195,99 @@ TBD.
                       <div class="2u 12u$(small)">
                         <a href="http://www.aalkhateeb.net/?i=1" target="_blank" class="image">
                           <span class="image fit">
-                            <img src="images/ahmed_new.jpg" alt="">
+                            <img src="images/ahmed_new.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
                           </span>
                           <h4>Ahmed Alkhateeb<br><font size="3">ASU</font></h4>
                         </a>
                       </div>
                       <div class="2u 12u$(small)">
-                        <a href="https://www.ti.rwth-aachen.de/~behboodi/" target="_blank" class="image">
+                        <a href="https://arashbehboodi.github.io/" target="_blank" class="image">
                           <span class="image fit">
-                            <img src="images/behboodi_new.jpg" alt="">
+                            <img src="images/behboodi_new.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
                           </span>
                           <h4>Arash Behboodi <br><font size="3">Qualcomm AI Research</font></h4>
                         </a>
                       </div>
                       <div class="2u 12u$(small)">
-                        <a href="https://scholar.google.com/citations?user=frmNZH4AAAAJ&hl=en" target="_blank" class="image">
+                        <a href="https://scholar.google.com/citations?user=zVvdiTsAAAAJ" target="_blank" class="image">
                           <span class="image fit">
-                            <img src="images/nageen.himayat.jpg" alt="">
+                            <img src="images/Ravi_bio.png" alt="Avatar" class="rounded" width="160px" height="120px">
                           </span>
-                          <h4>Nageen Himayat<br><font size="3">Intel</font></h4>
+                          <h4>Ravikumar Balakrishnan<br><font size="3">Intel</font></h4>
                         </a>
                       </div>
                       <div class="2u 12u$(small)">
                         <a href="http://www.bell-labs.com/about/researcher-profiles/jakobhoydis/#gref" target="_blank" class="image">
                           <span class="image fit">
-                            <img src="images/jakob_new.jpg" alt="">
+                            <img src="images/jakob_new.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
                           </span>
                           <h4>Jakob Hoydis<br><font size="3">Nvidia</font></h4>
                         </a>
                       </div>
-                      <div class="2u 12u$(small)">
+<!--                       <div class="2u 12u$(small)">
                         <a href="https://scholar.google.com/citations?user=roVp_WwAAAAJ&hl=en" target="_blank" class="image">
                           <span class="image fit">
-                            <img src="images/navid.jpg" alt="">
+                            <img src="images/navid.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
                           </span>
-                          <h4>Navid NaderiAlizadeh<br><font size="3">University of Pennsylvania</font></h4>
+                          <h4>Navid Naderi Alizadeh<br><font size="3">University of Pennsylvania</font></h4>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="www.cs.cmu.edu/~smithv" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/vsmith.png" alt="Avatar" class="rounded" width="160px" height="120px">
+                          </span>
+                          <h4>Virginia Smith <br><font size="3">Carnegie Mellon University</font></h4>
                         </a>
                       </div>
                       <div class="2u 12u$(small)">
                         <a href="https://iis.ee.ethz.ch/people/person-detail.cstuder.html" target="_blank" class="image">
                           <span class="image fit">
-                            <img src="images/studer_new.jpg" alt="">
+                            <img src="images/studer_new.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
+                          </span>
+                          <h4>Christoph Studer <br><font size="3">ETHZ</font></h4>
+                        </a>
+                      </div> -->
+<!--                       <div class="2u$ 0u$(small)">
+                        <a href="#" class="image"></a>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
+
+                <div>
+                  <div class="content" algin="center">
+                    <div class="row uniform" algin="center">
+
+                      
+                      <div class="2u 12u$(small)">
+                        <a href="https://scholar.google.com/citations?user=roVp_WwAAAAJ&hl=en" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/navid.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
+                          </span>
+                          <h4>Navid Naderi Alizadeh<br><font size="3">University of Pennsylvania</font></h4>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="www.cs.cmu.edu/~smithv" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/vsmith.png" alt="Avatar" class="rounded" width="160px" height="120px">
+                          </span>
+                          <h4>Virginia Smith <br><font size="3">Carnegie Mellon University</font></h4>
+                        </a>
+                      </div>
+                      <div class="2u 12u$(small)">
+                        <a href="https://iis.ee.ethz.ch/people/person-detail.cstuder.html" target="_blank" class="image">
+                          <span class="image fit">
+                            <img src="images/studer_new.jpg" alt="Avatar" class="rounded" width="160px" height="120px">
                           </span>
                           <h4>Christoph Studer <br><font size="3">ETHZ</font></h4>
                         </a>
                       </div>
-                      <div class="2u$ 0u$(small)">
+<!--                       <div class="2u$ 0u$(small)">
                         <a href="#" class="image"></a>
-                      </div>
-                      <div class="2u 12u$(small)">
-                        <a href="https://scholar.google.com/citations?user=plidYfUAAAAJ&hl=en" target="_blank" class="image">
-                          <span class="image fit">
-                            <img src="images/shilpa.jpg" alt="">
-                          </span>
-                          <h4>Shilpa Talwar <br><font size="3">Intel</font></h4>
-                        </a>
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -226,7 +304,7 @@ TBD.
       </div>
 
     </div><!-- /.container -->
-  </div>
+    </div>
  
 
 
