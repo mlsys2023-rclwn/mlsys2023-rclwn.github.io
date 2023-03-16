@@ -320,6 +320,18 @@ h5{
 	border-top: 1px #000;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer{
 	font-size: 0.9em;
 }
