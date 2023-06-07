@@ -200,8 +200,8 @@ img{
 
 
 <style>
-  th:nth-child(1) { width: 20%; }
-  th:nth-child(2) { width: 80%; }
+  th:nth-child(1) { width: 25%; }
+  th:nth-child(2) { width: 75%; }
   th {
     font-size: 18px; /* Font size for table header cells */
   }
